@@ -37,3 +37,39 @@
     margin: 0;
 }
 
+li{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.cabecalho{
+  padding: 5px;
+  font-family: var(--fonte-primaria);
+  font-weight: var(--fonte-primaria-peso);
+  font-size: 2rem;
+  background-color: #ebebebf3;
+  text-align: center;
+  gap: 100px;
+}
+
+.cabecalho__navegacao {
+  list-style-type: none;
+}
+
+.cabecalho__navegacao li {
+  display: inline-block;
+  margin: 0 100px;
+}
+
+body{
+  background-image:url('../img/imagemFundo.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+
+
