@@ -41,10 +41,6 @@ li{
     text-decoration: none;
   }
   
-  a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
   
   .cabecalho{
     padding: 5px;
@@ -59,11 +55,22 @@ li{
   .cabecalho__navegacao {
     list-style-type: none;
   }
+
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+  }
+
+  a:hover{
+    color: rgb(129, 129, 129);
+  }
   
   .cabecalho__navegacao li {
     display: inline-block;
     margin: 0 100px;
   }
+
 
   body{
     background-image:url('../img/imageGrillz.png');

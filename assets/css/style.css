@@ -41,19 +41,16 @@ li{
   text-decoration: none;
 }
 
-a{
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
+
 
 .cabecalho{
   padding: 5px;
   font-family: var(--fonte-primaria);
   font-weight: var(--fonte-primaria-peso);
   font-size: 2rem;
-  background-color: #ebebebf3;
+  background-color: #222222;
   text-align: center;
-  gap: 100px;
+  
 }
 
 .cabecalho__navegacao {
@@ -63,6 +60,17 @@ a{
 .cabecalho__navegacao li {
   display: inline-block;
   margin: 0 100px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease;
+}
+
+a:hover{
+  font-size: 3rem;
+  color: rgb(177, 175, 175);
 }
 
 body{
