@@ -43,7 +43,12 @@ li{
   
   a{
     text-decoration: none;
-    color: rgb(62, 93, 114);
+    color: rgb(43, 51, 56);
+    transition: color 0.3s ease;
+  }
+
+  a:hover{
+    color: rgb(121, 115, 115);
   }
   
   .cabecalho{
@@ -73,7 +78,18 @@ li{
 
   .imagem{
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 220px;
+  }
+
+  .videos__caminhos{
+    display: flex;
+    gap: 100px;
+  }
+
+  iframe{
+    margin-top: 100px;
+    height: 640px;
+    width: 680px;
   }
 
   

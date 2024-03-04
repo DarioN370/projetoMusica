@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --fonte-primaria: "Poppins", sans-serif;
+    --fonte-primaria-peso: 600;
+    --fonte-secundaria: "Poppins", sans-serif;
+    --fonte-secundaria-peso: 400;
+    --fonte-terciaria: "Poppins", sans-serif;
+    --fonte-terciaria-peso: 500;
+    --poppins-bold: 700;
+    
+}
+
+*{
+    padding: 0;
+}
+  
+  .cabecalho{
+    padding: 5px;
+    font-family: var(--fonte-primaria);
+    font-weight: var(--fonte-primaria-peso);
+    font-size: 2rem;
+    background-color: #050708;
+    text-align: center;
+    
+  }
+  
+  .cabecalho__navegacao {
+    list-style-type: none;
+  }
+  
+  .cabecalho__navegacao li {
+    display: inline-block;
+    margin: 0 100px;
+    text-decoration: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+  }
+
+  a:hover{
+    color: rgb(109, 108, 108);
+        
+  }
+
+  body{
+    background-image: url(../img/dcfu5co-606f9b50-7c13-4395-9580-0f5c8b4a76a2.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+  ol{
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 1.5rem;
+  }
+
+  .musicas__album{
+    color: rgb(255, 255, 255);
+  }
+
+
+
