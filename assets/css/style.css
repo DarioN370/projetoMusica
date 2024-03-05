@@ -81,16 +81,49 @@ body{
 
 table{
   margin-top: 100px;
-  margin-left: 830px;
-  background-color: azure;
-  border-radius: 4px;
+  margin-left: 750px;
   text-align: center;
-  border-collapse: collapse;     /*Faz com que as as linhas da tabela se juntem em uma só*/
 }
 
 th, td{
-  border: 2px solid #000000;
+  font-size: 2rem;
+  color: aliceblue;
+  padding: 10px;
 }
 
+/*________________Final do css Desktop_______________*/
+/*________________Inicio do CSS mobile_______________*/
+
+/*____dispositivo com menos de 768px ele vai carregar o css mobile___*/
+
+@media only screen and (max-width: 768px) {
+  body {
+      width: 100%;
+      background-color: black;
+      background: url(../img/imagemFundo.png) no-repeat cover;
+  }
+
+  .cabecalho{
+      width: 100%;
+  }
+
+  .cabecalho__navegacao li {
+    display: inline-block;
+    margin: 12px;
+    font-size: 1rem;
+  }
+
+  table{
+    margin-left: 90px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  th, td{
+    font-size: 1rem;
+    color: aliceblue;
+  }
+
+}
 
 
